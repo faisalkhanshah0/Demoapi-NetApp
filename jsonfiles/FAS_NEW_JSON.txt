@@ -1,0 +1,84 @@
+{  
+   "EntryPoint": "System",
+   "SerialNumber": "211409000190",
+   "SerialNumber_Status": "Valid",
+   "SerialNumber_Message": "User Has Access to Serial Number",
+   "ASUP_Status": "ON",
+   "Last_Asup_Date": "5/5/2017",
+   "System":  
+      {
+	"Family": "FAS",
+	"Model": "8040",
+	"Controller_Count": "2",
+	"IOXM": "1"
+      },
+   "Storage":[  
+            { 
+		"Shelf_Type": "DS224C",
+		"Shelf_Quantity": "10",
+		"Encryption": "NSE",
+               	"Drives":[  
+                  {		
+			"Disk_Interface": "SAS1",
+			"Disk_Category": "SSD1",
+			"Disk_Capacity": "3800GB1",
+			"Drive_Quantity": "241"
+		  },
+		  {		
+			"Disk_Interface": "SAS2",
+			"Disk_Category": "SSD2",
+			"Disk_Capacity": "3800GB2",
+			"Drive_Quantity": "242"
+		  }
+               ]
+            },
+            { 
+		"Shelf_Type": "DS2248",
+		"Shelf_Quantity": "20",
+		"Encryption": "NSE2",
+               	"Drives":[  
+                  {		
+			"Disk_Interface": "SATA1",
+			"Disk_Category": "HDD1",
+			"Disk_Capacity": "1200GB",
+			"Drive_Quantity": "121"
+		  },
+                  {		
+			"Disk_Interface": "SATA2",
+			"Disk_Category": "HDD2",
+			"Disk_Capacity": "1200GB2",
+			"Drive_Quantity": "122"
+		  }
+               ]
+            }
+         ],
+  "Softwares": [
+	{
+		"Software": [
+       			{
+	                  "Bundle": "Base Bundle1",
+        	          "Protocol": "SNAPLOCK"
+               		},
+               		{
+	                "Bundle": "Base Bundle2",
+        	        "Protocol": "SNAPMANAGER"
+               		}
+            	],
+            	"Existing_Software_End_Date": "12/12/2018"
+         },
+         {
+         	"Software":[
+			{
+			"Bundle": "Base Bundle3",
+        	        "Protocol": "CIFS"
+			}
+		],
+            	"Existing_Software_End_Date": "5/5/2018"
+         }
+   ],
+   "Existing_Services": {
+      "Existing_Response_Time": "NBD PREMIUM ONSITE",
+      "Existing_Service_End_Date": "12/12/2018",
+      "Existing_Warranty_End_Date": "12/12/2018"
+   }
+}
