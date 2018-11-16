@@ -1,8 +1,10 @@
+console.time("Time this");
 var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
+
 
   //Query 1
 
@@ -95,6 +97,7 @@ router.get('/', function(req, res, next) {
   obj.Existing_Services = obj7;
 
   if(obj){
+    console.timeEnd("Time this");
     res.status(200).json(obj);
   }
   else{
